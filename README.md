@@ -92,7 +92,7 @@ manipulation and provides insightful reporting on cigarette brands.
 3. After this script completes, you will see a new directory `csvs` located at `The-World-Of-Cigs/server/csvs`. This directory contains the generated CSV files for the database.
 
 ## Postman
-- Import the `The-World-Of-Cigs.postman_collection.json` file into Postman to access the API endpoints.
+- Import the `The-World-Of-Cigs.postman_collection.json` file located at `The-World-Of-Cigs/server/postmanCollections` into Postman to access the API endpoints.
 
 ## Swagger
 - Open your browser and navigate to `http://localhost:8080/swagger` to access the Swagger documentation.
