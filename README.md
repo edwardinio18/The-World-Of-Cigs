@@ -1,7 +1,7 @@
-# The World Of Cigs
+# World Of Cigs
 
 ## Overview
-"The World Of Cigs" is a full-stack web application dedicated to the
+"World Of Cigs" is a full-stack web application dedicated to the
 comprehensive management of cigarette brands and types. It facilitates
 user interactions through a meticulously designed database, RESTful API endpoints,
 and a dynamic client interface. This application enables efficient data
@@ -28,11 +28,11 @@ manipulation and provides insightful reporting on cigarette brands.
 ### Installing
 1. Clone the repository:
    ```bash
-   git clone git@github.com:edwardinio18/The-World-Of-Cigs.git
+   git clone git@github.com:edwardinio18/World-Of-Cigs.git
 #### Server Setup
 1. Navigate to the server directory:
    ```bash
-   cd The-World-Of-Cigs/server
+   cd World-Of-Cigs/server
 2. Install server dependencies:
    ```bash
    npm install
@@ -44,7 +44,7 @@ manipulation and provides insightful reporting on cigarette brands.
 #### Client Setup
 1. Navigate to the client directory:
    ```bash
-   cd The-World-Of-Cigs/client
+   cd World-Of-Cigs/client
 2. Install client dependencies:
    ```bash
    npm install
@@ -56,7 +56,7 @@ manipulation and provides insightful reporting on cigarette brands.
 ## Testing
 1. Navigate to the server directory:
    ```bash
-   cd The-World-Of-Cigs/server
+   cd World-Of-Cigs/server
 2. Run the test suite:
    ```bash
    npm test
@@ -82,17 +82,17 @@ manipulation and provides insightful reporting on cigarette brands.
    db.createCollection('CigarettesPeople')
    db.createCollection('People')
 
-## Populate Database
+## Generating Data
 1. Navigate to the `databaseHelper` directory inside `server` directory:
    ```bash
-   cd The-World-Of-Cigs/server/databaseHelper
+   cd World-Of-Cigs/server/databaseHelper
 2. Run the database generation script:
    ```bash
    python3 generate.py
-3. After this script completes, you will see a new directory `csvs` located at `The-World-Of-Cigs/server/csvs`. This directory contains the generated CSV files for the database.
+3. After this script completes, you will see a new directory `csvs` located at `World-Of-Cigs/server/csvs`. This directory contains the generated CSV files that are to be imported into the MongoDB database.
 
 ## Postman
-- Import the `The-World-Of-Cigs.postman_collection.json` file located at `The-World-Of-Cigs/server/postmanCollections` into Postman to access the API endpoints.
+- Import the `World-Of-Cigs.postman_collection.json` file located at `World-Of-Cigs/server/postmanCollections` into Postman to access the API endpoints.
 
 ## Swagger
 - Open your browser and navigate to `http://localhost:8080/swagger` to access the Swagger documentation.
