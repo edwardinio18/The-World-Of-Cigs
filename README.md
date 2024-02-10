@@ -7,6 +7,12 @@ user interactions through a meticulously designed database, RESTful API endpoint
 and a dynamic client interface. This application enables efficient data
 manipulation and provides insightful reporting on cigarette brands.
 
+## Preview
+#### Cigarettes Main Page
+![Cigarettes Main Page](assets/cigarettes_main_page.png)
+#### People List Page
+![People List Page](assets/people_list_page.png)
+
 ## Features
 - RESTful API for seamless data management.
 - Detailed models for brands, cigarettes, and user interactions.
