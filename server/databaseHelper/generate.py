@@ -1,6 +1,7 @@
 import random
 import csv
 import time
+import os
 
 from faker import Faker
 
@@ -99,13 +100,15 @@ def generate_cigarette_person_data(num_records):
     )
     return data
 
-
 def write_to_csv_file(filename, data):
+    directory = os.path.dirname(filename)
+    
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
     with open(filename, 'w', newline='') as csvfile:
-        writer = csv.DictWriter(
-            csvfile, fieldnames=data[0].keys(), delimiter=',')
+        writer = csv.DictWriter(csvfile, fieldnames=data[0].keys(), delimiter=',')
         writer.writerows(data)
-
 
 start_total_time = time.time()
 
